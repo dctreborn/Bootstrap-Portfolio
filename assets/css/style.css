@@ -4,11 +4,21 @@ body {
 	background-image: url(../images/sayagata.png);
 }
 
-#footer {
-	color: #fff;
+hr {
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #cccccc;
 }
+
 
 .pic {
 	margin-right: 30px;
 	margin-bottom: 20px;
 }
+
+#footer {
+	color: #fff;
+	float: none;
+	text-align: center;
+}
+
