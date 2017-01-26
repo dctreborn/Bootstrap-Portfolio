@@ -16,6 +16,11 @@ hr {
 	margin-bottom: 20px;
 }
 
+hr.sidebar {
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+}
+
 #footer {
 	color: #fff;
 	float: none;
