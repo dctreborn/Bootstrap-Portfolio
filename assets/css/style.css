@@ -1,24 +1,45 @@
 body {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	line-height: 200%;
 	background-image: url(../images/sayagata.png);
 }
 
-hr {
-    border-width: 1.5px;
-    border-style: solid;
-    border-color: #cccccc;
+h1 {
+	padding-bottom: 25px;
+	font-size: 30px;
+	font-weight: bold; 
+	border-bottom: 3px solid #cccccc;
 }
 
+h2 {
+	padding-bottom: 20px;
+	font-size: 22px;
+	font-weight: bold; 
+	border-bottom: 2px solid #eeeeee;
+}
+
+hr.sidebar {
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+}
+
+p.about {
+	line-height: 200%;
+	font-size: 16px;
+}
+
+.container {
+	width: 960px;
+}
 
 .pic {
 	margin-right: 30px;
 	margin-bottom: 20px;
 }
 
-hr.sidebar {
-	border: 1px solid #dddddd;
-	background-color: #ffffff;
+.teal {
+    color: #4aaaa5;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-weight: bold;
 }
 
 #footer {
