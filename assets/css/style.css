@@ -1,6 +1,7 @@
 body {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	background-image: url(../images/sayagata.png);
+	padding-bottom: 70px; /* padding for footer, fix this later */
 }
 
 h1 {
@@ -27,10 +28,6 @@ p.about {
 	font-size: 16px;
 }
 
-.container {
-	width: 960px;
-}
-
 .pic {
 	margin-right: 30px;
 	margin-bottom: 20px;
@@ -42,7 +39,11 @@ p.about {
     font-weight: bold;
 }
 
-#footer {
+.navbar-fixed-bottom {
+	border-top: 8px solid #4aaaa5;
+}
+
+#footer { /* try sticker footer styling from basic*/
 	color: #fff;
 	float: none;
 	text-align: center;
