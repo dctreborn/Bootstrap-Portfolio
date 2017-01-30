@@ -41,14 +41,17 @@ p.about {
 	font-size: 16px;
 }
 
+.navbar-brand:hover {
+
+}
+
 .name {
     font-size: 30px;
     font-style: bold;
 }
 
 #top {
-	background-color: #ffffff;
-	border-bottom: 2px solid #cccccc;
+	border-bottom: 2px solid #4aaaa5; /*cccccc*/
 }
 
 .box_label {
