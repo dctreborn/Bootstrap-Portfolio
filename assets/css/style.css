@@ -57,17 +57,20 @@ p.about {
 .thumbnail {
 	position: relative;
 	z-index: 1;
+	height: 205px;
+	width: 100%;
+	display: block;
 }
 
 .box_label {
     width: 275px;
     z-index: 2;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 24px;
+    font-size: 20px;
 	background-color: #4aaaa5;
 	color: #ffffff;
 }
