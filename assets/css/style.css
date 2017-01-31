@@ -59,11 +59,13 @@ p.about {
 	z-index: 1;
 	height: 205px;
 	width: 100%;
+	max-width: 275px;
 	display: block;
 }
 
 .box_label {
-    width: 275px;
+    width: 100%;
+    max-width: 275px;
     z-index: 2;
     position: absolute;
     bottom: 20px;
