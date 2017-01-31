@@ -54,7 +54,20 @@ p.about {
 	border-bottom: 2px solid #4aaaa5; /*cccccc*/
 }
 
+.thumbnail {
+	position: relative;
+	z-index: 1;
+}
+
 .box_label {
+    width: 275px;
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
 	background-color: #4aaaa5;
 	color: #ffffff;
 }
