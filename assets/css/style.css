@@ -41,6 +41,8 @@ p.about {
 	font-size: 16px;
 }
 
+
+
 .navbar-brand:hover {
 
 }
@@ -63,13 +65,21 @@ p.about {
 	display: block;
 }
 
+.thumbnail img {
+	height: 200px;
+	width: 100%;
+	max-width: 275px;
+}
+
 .box_label {
+    position: absolute;
     width: 100%;
     max-width: 275px;
     z-index: 2;
-    position: absolute;
     bottom: 20px;
+    left: 0;
     text-align: center;
+    padding: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
